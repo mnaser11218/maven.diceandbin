@@ -1,6 +1,6 @@
-package com.github.git_leon.dicerollsimulator.simulationtest;
+package com.github.curriculeon.simulationtest;
 
-import com.github.git_leon.dicerollsimulator.Simulation;
+import com.github.curriculeon.Simulation;
 import org.junit.Assert;
 import org.junit.Test;
 

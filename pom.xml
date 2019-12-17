@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.git-leon</groupId>
-    <artifactId>DiceRoll</artifactId>
+    <groupId>com.github.curriculeon</groupId>
+    <artifactId>diceandbin</artifactId>
     <version>1.0</version>
     <build>
         <plugins>

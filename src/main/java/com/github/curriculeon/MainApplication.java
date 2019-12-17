@@ -1,4 +1,4 @@
-package com.github.git_leon.dicerollsimulator;
+package com.github.curriculeon;
 
 public class MainApplication {
     public static void main(String[] args) {

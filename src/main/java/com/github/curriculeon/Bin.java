@@ -1,4 +1,4 @@
-package com.github.git_leon.dicerollsimulator;
+package com.github.curriculeon;
 
 public class Bin {
     public Bin(Integer faceValueToTrack) {
