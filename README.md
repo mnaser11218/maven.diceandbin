@@ -6,7 +6,7 @@
 ### Overview
 * This project contains 5 classes to be implemented.
     * `Bin` - A class responsible for keeping track of the amount of times an individual face-value has occurred.
-    * `Bins` - A class responsible for keeping _handles_ many `Bin` objects.
+    * `Bins` - A class responsible which _contains_ many `Bin` objects.
     * `Die` - A class responsible for has a `faceValue` and the ability to _set_ the `faceValue` to a _random_ value.
     * `Dice` - A class responsible for keeping _handles_ many `Die` objects.
     * `Simulation` - A class responsible for _handling_  `Bins`, `Dice`, and computing statistical distributions.
