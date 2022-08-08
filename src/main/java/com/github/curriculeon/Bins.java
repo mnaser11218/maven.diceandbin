@@ -10,7 +10,7 @@ public class Bins {
     public void incrementBin(Integer faceValueToIncrement) {
     }
 
-    public Bin getBin(Integer faceValueToIncrement) {
+    public Bin getBin(Integer faceValueOfBin) {
         return null;
     }
 
