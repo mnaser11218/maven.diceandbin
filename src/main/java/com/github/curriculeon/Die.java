@@ -1,18 +1,31 @@
 package com.github.curriculeon;
 
+import java.util.Random;
+
 public class Die {
+    public Integer numberOfFaces=6;
+    public Integer currentFaceValue = null;
     public Die() {
     }
 
     public Die(Integer numberOfFaces) {
+
+        this.numberOfFaces = numberOfFaces;
     }
 
     public void roll() {
+        if(numberOfFaces.equals(1)){
+            throw new IllegalArgumentException();
+        }
+        Random random = new Random();
+        Integer value = random.nextInt(6 - 1)+1;
+        this.currentFaceValue = value;
+
     }
 
     public Integer getCurrentFaceValue() {
-        return null;    }
+        return this.currentFaceValue;   }
 
     public Integer getNumberOfFaces() {
-        return null;    }
+        return this.numberOfFaces;    }
 }

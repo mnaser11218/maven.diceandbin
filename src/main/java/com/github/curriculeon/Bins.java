@@ -31,13 +31,10 @@ public class Bins {
 
     public void incrementBin(Integer faceValueToIncrement) {
     boolean exist = false;
-        System.out.println("inside");
-        System.out.println(bins);
+
             for(Bin bin: bins){
-                System.out.println("inside for loop");
                 if(bin.faceValueToTrack.equals(faceValueToIncrement)){
-                    System.out.println("inside if statuement");
-                    System.out.println("inside bin");
+
                     bin.increment();
                     System.out.println(bin.getNumberOfOccurrences());
                     exist = true;
@@ -45,7 +42,6 @@ public class Bins {
                 }
             }
             if(!exist){
-                System.out.println("inside false");
                 this.bins= Arrays.copyOf(bins, bins.length+1);
                 Bin bin1 = new Bin(faceValueToIncrement);
                 bin1.increment();
