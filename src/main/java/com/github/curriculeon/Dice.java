@@ -11,6 +11,7 @@ public class Dice {
     public Dice(Integer numberOfDie) {
         this(numberOfDie, 6);
 
+
     }
 
     /**
