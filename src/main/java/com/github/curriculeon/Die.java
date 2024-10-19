@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Die {
     public Integer numberOfFaces=6;
-    public Integer currentFaceValue = null;
+    public Integer currentFaceValue;
     public Die() {
     }
 
@@ -14,8 +14,11 @@ public class Die {
     }
 
     public void roll() {
-        if(numberOfFaces.equals(1)){
-            throw new IllegalArgumentException();
+//        if(numberOfFaces.equals(1)){
+//            throw new IllegalArgumentException();
+//        }
+        if(numberOfFaces == null){
+            throw new NullPointerException();
         }
         Random random = new Random();
         Integer value = random.nextInt(6 - 1)+1;
